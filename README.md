@@ -8,9 +8,11 @@ Se trata de un modelo B2C que abarcará el ámbito de los productos de alimentac
 * Carnicería y charcutería 
 * Pescadería 
 * Frutería (fruta y verduras) 
-* Panadería, confitería y bollería 
+* Panadería, confitería y bollería
+* Productos de droguería
+* Cerveza artesanal y vinos de la zona
 La razón de elegir este ámbito tan concreto es porque se busca facilitar al cliente final la búsqueda y acceso a una gran variedad de productos alimenticios de alta calidad que por lo general no se encuentran en grandes o medianas superficies, y son los pequeños comercios especializados los que suelen ofrecerlos. 
-En la plataforma no se incluirá ningún producto que contenga alcohol (cerveza, vino, destilados…) ¿Por qué? Me desmarcaría de la comida no sana (alcohol, productos "prefabricados", bollería industrial...), me centraría en la venta de productos de comercio tradicional (descritos arriba). Y no solo buscamos beneficiar al usuario final (que también). Sobre todo buscamos beneficiar al comercio local, dándole la opción de subirse al carro del comercio electrónico por un precio muy asequible y no quedarse atrás. 
+En la plataforma no se incluirá ningún producto que contenga alcohol (cerveza, vino, destilados…), nos desmarcamos de la comida no sana (destilados, productos "prefabricados", bollería industrial...), centrandonos en la venta de productos de comercio tradicional (descritos arriba). Y no solo buscamos beneficiar al usuario final (que también), sobre todo buscamos beneficiar al comercio local, dándole la opción de subirse al carro del comercio electrónico por un precio muy asequible y no quedarse atrás. 
 Tiraría mucho también de productos artesanos (muchos comercios pequeños lanzan sus propios productos como pueden quesos, algunos dulces, postres, etc.) 
  
 ##Contexto 
@@ -19,10 +21,8 @@ Pero quizás el sector donde más haya que centrarse para situarnos y poder ver 
 Es también este último punto el que queremos resaltar como parte del contexto, debido a que las medianas y grandes superficies, respaldadas por grandes empresas están desplazando al pequeño comercio de la vida cotidiana, al punto que hoy en día cuesta encontrar este tipo de locales en barrios de nueva construcción, y cada vez más también en barrios donde antes era común que estuvieran. Pensamos que una de las principales razones es la dispersión geográfica y la falta de conocimiento de los consumidores sobre estos locales. Mediante esta idea se trata de solucionar ambos problemas. 
  
 ##Monetización 
-Se plantean varios modelos diferentes de monetización: 
-* Cobrar una cantidad mensual fija por cada producto que se suba. Podrá variar según el precio del producto, el tipo o incluso hacer descuentos por conjuntos grandes de productos. No variaría el precio según coste de producto. Una de las claves de esta plataforma es su sencillez y limpieza, sin letras pequeñas. De esa manera ya tendrías que estar explicando que si subes un producto determinado te puede costar más que subir otro. Esto es negativo. Me limitaría a 1 producto, 0,60€, sin más ni más. Muy fácil de entender para el típico charcutero de barrio que no entiende mucho de estas cosas. 
-* Cobrar un porcentaje del precio de cada producto vendido a través de la plataforma. Esta opción se puede contemplar para casos donde se busque principalmente promocionar un catálogo de productos, y la venta se realice en la tienda física. Casi que descarto por completo los pagos en base a porcentaje, dan sensación de inseguridad, a mi personalmente las plataformas que cobran por % no me gustan nada. 
-* Combinar ambas modalidades, reduciendo el coste de cada una. 
+La forma de monetización va a ser cobrando 0,60€/mes por cada producto subido, independientemente de la cantidad de productos que se suba.
+
  
 ##Implementación 
 Por un lado tendremos la plataforma web, donde el usuario final podrá mirar, comprar o reservar los productos (productos del día o frescos) de la ciudad o población en la que se encuentre. El cliente podrá recogerlos en tienda física o solicitar su transporte. 
@@ -33,7 +33,7 @@ Adicionalmente, otra versión web más ligera donde el usuario con poco acceso a
  
 ##PLATAFORMA WEB 
  
-Previamente, hay que estudiar en que formato crear la web, con Bootstrap/php/js o con Web Components. En cualquier caso deberá ser una web muy rápida tanto en todo tipo de dispositivos, y especialmente orientada a móvil. Definitivamente me decantaría por Bootstrap/php/js, es algo que conocemos casi a la perfección y es perfectamente válido. 
+La plataforma web se implementará con Web Components, php y Js.
  
 Partes: 
  
